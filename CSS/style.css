@@ -1,4 +1,32 @@
 http://meyerweb.com/eric/tools/css/reset/
 
+
+
 div {border: 1px solid lightgrey;}
-body {background-color:chocolate;}
+body {background-color:black;
+	margin:0px;
+	font-family: 'arial', sans-serif;}
+
+h1 {background-color:white;
+	padding: 1.7em 4.4em 1.7em;
+	border:0px;
+	margin:0px;
+	font-size:1em;
+	text-align:right;
+	vertical-align: middle;
+	word-spacing:1.8em;
+	font-weight:normal;}
+
+a {word-spacing:normal;}
+a:link {color:#999999; 
+	font-style:normal;
+	font-weight:lighter;
+	text-decoration:none;}
+a:hover {color:#404040;}
+
+.link-karma {color:#595959;
+	font-weight:bolder;}
+.logo-head {vertical-align:middle;
+	padding-left: 4.2em;
+	padding-bottom:1em;
+	padding-top:1em;}
